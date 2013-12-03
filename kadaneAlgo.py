@@ -21,6 +21,9 @@ def max_sub(Array):
         #get the bigger value out of the accumulator so far
         #and the ending_here value
         max_so_far = max(max_so_far, max_ending_here)
+        
+    #the value returned will be the maximum sum
+    #it found that's bigger than 0
     return max_so_far
 
 ranArray = [-1,2,3,-4,5,6,7,-3,-1]
